@@ -72,7 +72,7 @@ No diretório `/frontend`, crie um arquivo `.env` com o seguinte conteúdo:
 
 ```env
 API_URL=http://localhost:8080/api/v1
-
+```
 Esse valor será usado para que o front-end se comunique com a API.
 Passos para Instalação e Execução
 1. Back-end
@@ -108,7 +108,3 @@ Fluxo de Autenticação
 Observações
 
     Certifique-se que as portas 8080 e 5173 estejam livres antes de iniciar.
-
-    O arquivo node_modules e target não são versionados (veja .gitignore).
-
-    Para ambiente de produção, configurar variáveis de ambiente seguras (JWT Secret, URL do banco de dados, etc.).
