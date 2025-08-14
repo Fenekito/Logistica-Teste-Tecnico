@@ -1,0 +1,27 @@
+# Ignorar IDEs/editores
+.vscode/
+.idea/
+
+# Node.js (front-end)
+frontend/node_modules/
+frontend/dist/
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/dist-ssr
+frontend/coverage
+frontend/*.local
+
+# Java (back-end)
+backend/target/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
