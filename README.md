@@ -76,21 +76,21 @@ API_URL=http://localhost:8080/api/v1
 Esse valor será usado para que o front-end se comunique com a API.
 Passos para Instalação e Execução
 1. Back-end
-
+```
 cd backend
 mvn clean install
 mvn spring-boot:run
-
+```
 O back-end estará disponível em:
 
 localhost:8080/api/v1
 
 2. Front-end
-
+```
 cd frontend
 npm install
 npm run dev
-
+```
 O front-end estará disponível em:
 
 http://localhost:5173
